@@ -145,7 +145,7 @@ This implementation includes:
 
 The provided WRMSSE implementation is a benchmark-compatible proxy rather than the exact M5-style hierarchical weighted version. To reproduce an exact benchmark score, replace the proxy with the official hierarchy-aware calculation used by the dataset protocol.
 
-## Adapting to your exact paper
+## Adapting to exact paper
 
 To match your paper exactly, update the following parts:
 
@@ -171,7 +171,3 @@ For a paper-exact version, you may want to add:
 ## Reproducibility
 
 The code sets random seeds for Python, NumPy, and PyTorch. For fully deterministic GPU results, keep in mind that some CUDA operations can still vary by hardware and software version.
-
-## Citation note
-
-This repository is a practical implementation scaffold aligned with the methodology you requested. It is intended to be adapted to the exact experiments and benchmark definitions reported in your manuscript.
